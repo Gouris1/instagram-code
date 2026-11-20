@@ -1,0 +1,95 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+}
+
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 360px;
+  padding: 35px 30px;
+  background: white;
+  border: 1px solid #dbdbdb;
+  text-align: center;
+}
+
+.auth-card h1 {
+  font-family: cursive;
+  font-size: 42px;
+  margin: 0 0 15px;
+}
+
+.subtitle {
+  color: #737373;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+.auth-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.auth-card input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  background: #fafafa;
+  outline-color: #a8a8a8;
+}
+
+.auth-card form button {
+  border: none;
+  border-radius: 8px;
+  padding: 11px;
+  margin-top: 5px;
+  color: white;
+  background: #0095f6;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.auth-card form button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.message {
+  margin-top: 15px;
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+
+.switch-form {
+  border-top: 1px solid #dbdbdb;
+  margin-top: 25px;
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+.switch-button {
+  margin-left: 5px;
+  border: none;
+  background: transparent;
+  color: #0095f6;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
